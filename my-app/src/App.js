@@ -1,4 +1,4 @@
-import './StyleFolder/Main.css';
+import './Styles/Main.css';
 import React from 'react';
 import MovieSearch from './Components/MovieSearch';
 

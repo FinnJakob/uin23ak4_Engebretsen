@@ -11,7 +11,7 @@ function MovieSearch() {
 
     const handleSubmit = event => {
         event.preventDefault();
-        fetch('http://')
+        fetch('http://www.omdbapi.com/?i=tt3896198&apikey=ef671f4e&type=movie&s=james-bond')
             .then(response => response.json())
             .then(data => {
                 if (data.Response === 'True') {

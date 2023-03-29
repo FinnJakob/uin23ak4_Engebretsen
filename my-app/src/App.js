@@ -1,13 +1,13 @@
 
 import React from 'react';
-import './Styles/Main.css';
-import MovieSearch from './Components/MovieSearch';
+import './Main.css';
+import MovieSearch from './MovieSearch';
 
 function App() {
   return (
     <div>
       <header>
-        <h1>Movie Search</h1> 
+        <h1>Movie Search Engine</h1> 
       </header>
       <MovieSearch />
     </div>

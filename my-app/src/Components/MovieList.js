@@ -18,5 +18,3 @@ function MovieList(props) {
         </div>
     );
 }
-
-export default MovieList;

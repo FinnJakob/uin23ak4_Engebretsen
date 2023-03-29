@@ -36,7 +36,7 @@ function MovieSearch() {
             {movies.lenght > 0 ? (
                 <MovieList movies={movies} />
             ) : (
-                <p>No movies found :-O</p>
+                <p>No movies found.</p>
             )}
         </div>
     );

@@ -43,7 +43,7 @@ header {
     border: none;
     font-size: 30px;
     text-align: center;
-    background-color: #16c0c3;
+    background-color: #ecabe2;
   }
   
   .PosterCard {
@@ -73,5 +73,5 @@ header {
   article img {
     height: 350px;
     width: 250px;
-  }/*# sourceMappingURL=Main.css.map */
+  }
   

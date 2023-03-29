@@ -1,5 +1,6 @@
-import './Styles/Main.css';
+
 import React from 'react';
+import './Styles/Main.css';
 import MovieSearch from './Components/MovieSearch';
 
 function App() {

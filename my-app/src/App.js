@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './Main.css';
-import MovieList from  './MovieList';
+// import MovieList from  './MovieList';
 import MovieSearch from './MovieSearch';
 
 

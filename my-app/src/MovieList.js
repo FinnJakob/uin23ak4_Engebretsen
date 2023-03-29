@@ -10,7 +10,7 @@ function MovieList(props) {
                 <article key={movie.imdbID}>
                     <img src={movie.Poster} alt={movie.Title} />
                     <div>
-                        <h3>{movie.Title}</h3>
+                        <h4>{movie.Title}</h4>
                         <p className='CardYear'>Year: {movie.Year}</p>
                         <p className='CardType'>Type: {movie.Type}</p>
                     </div>

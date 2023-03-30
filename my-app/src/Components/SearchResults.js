@@ -18,22 +18,18 @@ export default function SearchMovies(){
         )))
         const movies = await Promise.all(MovieData.map(RespMovie => (
             RespMovie.json()
-        )))
-        
+        ))) 
         setPrint(movies)
         console.log("data", data)
     }
-
     useEffect(() =>{
         findMovies()
     },[])
-
     console.log("outputmovies", printmovies)
     console.log("input", input)
 
     return(
-        <> 
-        <nav>
+        <><nav>
          <input className="Input" type="text" placeholder="Search here..." name="search" onChange={e => setInput(e.target.value)} />
             <button onClick={findMovies}>Search!</button>
         </nav>    
@@ -41,7 +37,6 @@ export default function SearchMovies(){
             {printmovies?.map((item, index) =>(
                 <MovieCard key={index} title={item?.Title} img={item?.Poster}/>
             ))}
-        </section>
-        </>
+        </section></>    
     )
 }

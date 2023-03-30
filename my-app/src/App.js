@@ -1,7 +1,7 @@
 
 import React from 'react';
-import './Main.css';
-import MovieSearch from './SearchResults';
+import './Style/Main.css';
+import MovieSearch from './Components/SearchResults';
 
 
 function App() {

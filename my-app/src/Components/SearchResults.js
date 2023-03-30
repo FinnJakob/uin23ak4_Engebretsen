@@ -11,13 +11,13 @@ export default function SearchMovies(){
         const response = await fetch(`https://www.omdbapi.com/?i=james+bond&apikey=ef671f4e&type=movie&s=${input.replace(" ", "-", "-")}`)//https://www.omdbapi.com/?s=james+bond&apikey=ef671f4e
         const data = await response.json()
         console.log("data search", data?.Search)
-        const moviesearch = data?.Search
-        const movieIds = moviesearch.map((items => items?.imdbID))
-        const movieData = await Promise.all(movieIds.map(id => (
+        const Search_for_Movie = data?.Search
+        const Ids = Search_for_Movie.map((items => items?.imdbID))
+        const MovieData = await Promise.all(Ids.map(id => (
             fetch(`https://www.omdbapi.com/?apikey=ef671f4e&type=movie&i=${id}`)
         )))
-        const movies = await Promise.all(movieData.map(movieresponse => (
-            movieresponse.json()
+        const movies = await Promise.all(MovieData.map(RespMovie => (
+            RespMovie.json()
         )))
         
         setPrint(movies)

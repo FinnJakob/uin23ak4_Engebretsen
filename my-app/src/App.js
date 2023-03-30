@@ -1,15 +1,14 @@
 
 import React from 'react';
 import './Main.css';
-// import MovieList from  './MovieList';
-import MovieSearch from './MovieSearch';
+import MovieSearch from './SearchResults';
 
 
 function App() {
   return (
     <div>
       <header>
-        <h1>Ultimate Movie Search</h1> 
+        <h1>Ultimate Movie Search!</h1> 
       </header>
       <MovieSearch />
     </div>

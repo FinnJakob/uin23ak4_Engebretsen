@@ -1,77 +1,57 @@
 header {
     border: solid 9px #89765d;
     background-color: #e0731f;
+    
   }
   header h1 {
     color: #0b0a0a;
     text-align: center;
     font-family: sans-serif;
+    color: white;
   }
   
   body {
     background-color: #3300b5;
   }
 
-  p {
+  p, h4, h5 {
     color: white;
-    text-align: center;
+    text-align: left;
   }
   
-  form {
-    width: 99%;
-    margin: auto;
-    justify-content: center;
-    padding: 8px;
-    
+  li {
+    list-style-type: none;
+    text-align: left;
   }
-  form input {
-    border: none;
-    padding: 1.5rem;
-    width: 800px;
-    margin-top: 7.5px;
-    margin-left: 280px;
-    margin-right: 15px;
-    
-    font-size: 30px;
-    text-align: center;
-    background-color: #cfcccc;
-  }
-  form button {
-    padding: 1rem;
+
+  button {
+    padding: .5rem;
     margin-top: 8px;
-    margin-right: 16px;
+    margin-right: 2px;
     border: none;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     background-color: #ecabe2;
   }
-  
-  .PosterCard {
-    padding: 12px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #0b0a0a;
+
+  .Input {
+    padding: .5rem;
+    margin-top: 8px;
+    margin-right: .5px;
+    border: none;
+    font-size: 20px;
   }
   
-  article {
-    color: #cfcccc;
-    border: solid 3px #0b0a0a;
-    background-color: #0b0a0a;
-    height: 6000px;
-    width: fit-content;
-    width: -moz-fit-content;
-    justify-content: center;
-    text-align: center;
-    list-style: none;
-    inline-size: 280px;
-    padding: 1.5rem;
-    margin: auto;
-    margin-bottom: 3rem;
-    overflow-wrap: break-word;
+  .Poster_Card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #3300b5;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    color: white;
+    max-width: 350px;
     
   }
-  article img {
-    height: 350px;
-    width: 250px;
-  }
+
   
